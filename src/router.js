@@ -24,6 +24,9 @@ const router = new Router({
     },{
         path: '/articles/create',
         component: CreateArticle
+    },{
+        path: '',
+        redirect: '/login'
     }]
 });
 
